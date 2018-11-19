@@ -5,7 +5,7 @@
 		<Option title="usercomponent"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\bdsim\;CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\;CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.3.2\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\bdsim\;CMake Files\..\..\..\..\..\usr\local\share\bdsim\vis\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\local\;CMake Files\..\..\..\..\..\opt\local\lib\;CMake Files\..\..\..\..\..\opt\local\lib\CLHEP-2.4.1.0\;CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\;CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\Modules\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\bdsim\;CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\;CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\Modules\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\bdsim\;CMake Files\..\..\..\..\..\usr\local\share\bdsim\vis\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\local\;CMake Files\..\..\..\..\..\opt\local\lib\;CMake Files\..\..\..\..\..\opt\local\lib\CLHEP-2.4.1.0\;CMake Files\..\..\..\..\..\opt\local\lib\cmake\;CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\..\opt\local\libexec\;CMake Files\..\..\..\..\..\opt\local\libexec\qt5\;CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\;CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\;CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5PrintSupport\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug"/>
@@ -28,14 +28,28 @@
 					<Add option="-DG4VERBOSE"/>
 					<Add option="-DG4UI_USE"/>
 					<Add option="-DG4VIS_USE"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/opt/local/lib/CLHEP-2.4.1.0/../../include"/>
 					<Add directory="/usr/local/include/bdsim"/>
 					<Add directory="/Users/jamiechappell/git/FF_spectrometer/usercomponent/include"/>
-					<Add directory="/opt/local/include/Geant4/Geant4.10.4/Geant4"/>
+					<Add directory="/usr/local/include/Geant4"/>
 					<Add directory="/opt/local/include"/>
-					<Add directory="/opt/local/libexec/qt4/include"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtCore"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtGui"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtOpenGL"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtWidgets.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtGui.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtCore.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtCore.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/./mkspecs/macx-clang"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtPrintSupport.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtPrintSupport.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtOpenGL.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtOpenGL.framework/Headers"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -62,14 +76,28 @@
 					<Add option="-DG4VERBOSE"/>
 					<Add option="-DG4UI_USE"/>
 					<Add option="-DG4VIS_USE"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/opt/local/lib/CLHEP-2.4.1.0/../../include"/>
 					<Add directory="/usr/local/include/bdsim"/>
 					<Add directory="/Users/jamiechappell/git/FF_spectrometer/usercomponent/include"/>
-					<Add directory="/opt/local/include/Geant4/Geant4.10.4/Geant4"/>
+					<Add directory="/usr/local/include/Geant4"/>
 					<Add directory="/opt/local/include"/>
-					<Add directory="/opt/local/libexec/qt4/include"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtCore"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtGui"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtOpenGL"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtWidgets.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtGui.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtCore.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtCore.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/./mkspecs/macx-clang"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtPrintSupport.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtPrintSupport.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtOpenGL.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtOpenGL.framework/Headers"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -116,14 +144,28 @@
 					<Add option="-DG4VERBOSE"/>
 					<Add option="-DG4UI_USE"/>
 					<Add option="-DG4VIS_USE"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/opt/local/lib/CLHEP-2.4.1.0/../../include"/>
 					<Add directory="/usr/local/include/bdsim"/>
 					<Add directory="/Users/jamiechappell/git/FF_spectrometer/usercomponent/include"/>
-					<Add directory="/opt/local/include/Geant4/Geant4.10.4/Geant4"/>
+					<Add directory="/usr/local/include/Geant4"/>
 					<Add directory="/opt/local/include"/>
-					<Add directory="/opt/local/libexec/qt4/include"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtCore"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtGui"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtOpenGL"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtWidgets.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtGui.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtCore.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtCore.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/./mkspecs/macx-clang"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtPrintSupport.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtPrintSupport.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtOpenGL.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtOpenGL.framework/Headers"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -150,14 +192,28 @@
 					<Add option="-DG4VERBOSE"/>
 					<Add option="-DG4UI_USE"/>
 					<Add option="-DG4VIS_USE"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/opt/local/lib/CLHEP-2.4.1.0/../../include"/>
 					<Add directory="/usr/local/include/bdsim"/>
 					<Add directory="/Users/jamiechappell/git/FF_spectrometer/usercomponent/include"/>
-					<Add directory="/opt/local/include/Geant4/Geant4.10.4/Geant4"/>
+					<Add directory="/usr/local/include/Geant4"/>
 					<Add directory="/opt/local/include"/>
-					<Add directory="/opt/local/libexec/qt4/include"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtCore"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtGui"/>
-					<Add directory="/opt/local/libexec/qt4/include/QtOpenGL"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtWidgets.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtGui.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtCore.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtCore.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/./mkspecs/macx-clang"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtPrintSupport.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtPrintSupport.framework/Headers"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtOpenGL.framework"/>
+					<Add directory="/opt/local/libexec/qt5/lib/QtOpenGL.framework/Headers"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -198,11 +254,23 @@
 		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/cmake/bdsim/BDSIMTargets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\bdsim\"/>
 		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/Geant4-10.4.2/Geant4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\"/>
+		</Unit>
 		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/Geant4-10.4.2/Geant4ConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\"/>
 		</Unit>
-		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/Geant4-10.3.2/Geant4ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.3.2\"/>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/Geant4-10.4.2/Geant4LibraryDepends-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/Geant4-10.4.2/Geant4LibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/Geant4-10.4.2/UseGeant4.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/Geant4-10.4.2/Modules/IntelCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\Modules\"/>
 		</Unit>
 		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/share/bdsim/vis/vis.mac">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\bdsim\vis\"/>
@@ -219,23 +287,107 @@
 		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/CLHEP-2.4.1.0/CLHEPLibraryDepends.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\CLHEP-2.4.1.0\"/>
 		</Unit>
-		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Geant4Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Geant4ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Geant4LibraryDepends-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Geant4LibraryDepends.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/UseGeant4.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Modules/IntelCompileFeatures.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\Modules\"/>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QFlatpakThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/libexec/qt5/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QCocoaPrinterSupportPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\libexec\qt5\lib\cmake\Qt5PrintSupport\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

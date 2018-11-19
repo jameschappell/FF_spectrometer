@@ -15,18 +15,32 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4VERBOSE"
   "G4VIS_USE"
   "G4_STORE_TRAJECTORY"
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_OPENGL_LIB"
+  "QT_PRINTSUPPORT_LIB"
+  "QT_WIDGETS_LIB"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/opt/local/lib/CLHEP-2.4.1.0/../../include"
   "/usr/local/include/bdsim"
   "../include"
-  "/opt/local/include/Geant4/Geant4.10.4/Geant4"
+  "/usr/local/include/Geant4"
   "/opt/local/include"
-  "/opt/local/libexec/qt4/include"
-  "/opt/local/libexec/qt4/include/QtCore"
-  "/opt/local/libexec/qt4/include/QtGui"
-  "/opt/local/libexec/qt4/include/QtOpenGL"
+  "/opt/local/libexec/qt5/lib/QtWidgets.framework"
+  "/opt/local/libexec/qt5/lib/QtWidgets.framework/Headers"
+  "/opt/local/libexec/qt5/lib/QtGui.framework"
+  "/opt/local/libexec/qt5/lib/QtGui.framework/Headers"
+  "/System/Library/Frameworks/OpenGL.framework/Headers"
+  "/opt/local/libexec/qt5/lib/QtCore.framework"
+  "/opt/local/libexec/qt5/lib/QtCore.framework/Headers"
+  "/opt/local/libexec/qt5/./mkspecs/macx-clang"
+  "/opt/local/libexec/qt5/lib/QtPrintSupport.framework"
+  "/opt/local/libexec/qt5/lib/QtPrintSupport.framework/Headers"
+  "/opt/local/libexec/qt5/lib/QtOpenGL.framework"
+  "/opt/local/libexec/qt5/lib/QtOpenGL.framework/Headers"
   )
 
 # Targets to which this target links.

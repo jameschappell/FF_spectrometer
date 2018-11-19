@@ -1,0 +1,79 @@
+! This file describes a simple model for the FlashForward spectrometer beamline
+
+option,physicsList="";
+option,ngenerate=100000;
+!include options.gmad;
+
+beamEnergy=1.0*GeV;
+gamma=beamEnergy/(0.511*MeV);
+print, gamma;
+beam, particle="e-",
+      energy=beamEnergy,
+      distrType="gausstwiss",
+      emitx=2e-6/gamma,
+      emity=2e-6/gamma,
+      betx=10e-3,
+      bety=10e-3,
+      alfx=0.0,
+      alfy=0.0,
+      sigmaE=1e-3,
+      sigmaT=100e-15;
+
+! Constants
+AP10MM=5*mm;
+quad_length=0.116*m;
+AP40MM=20.25*mm;
+
+
+!================================================ Drift lengths ================================================================
+
+Dinit: drift, l=0.001*mm, aper=AP10MM;
+D0031: drift, l=0.031*m, aper=AP40MM;
+D0096: drift, l=0.09639*m, aper=AP10MM;
+D0150: drift, l=0.15*m, aper=AP10MM;
+D0131: drift, l=0.1319585*m, aper=AP10MM;
+D0137: drift, l=0.137070*m, aper=AP40MM;
+D0139: drift, l=0.13945*m, aper=AP40MM;
+D0403: drift, l=0.40361*m, aper=AP10MM;
+D0423: drift, l=0.423500*m, aper=AP40MM;
+D0550: drift, l=0.519000*m, aper=AP40MM;
+D0250b: drift, l=0.45*m, aper=AP40MM;
+
+
+!================================================ Markers ======================================================================
+
+init: marker;
+BPM1FLFDIAG: marker;
+VAC2FLFDIAG: marker;
+BPM3FLFDIAG: marker;
+SCR5FLFDIAG: marker; ! placeholder for screen
+
+
+!================================================ Quadrupoles ==================================================================
+
+Q1.1FLFDIAG: quadrupole, l=quad_length, k1=7.277038966164662, aper1=AP10MM;
+Q1.2FLFDIAG: quadrupole, l=quad_length, k1=7.277038966164662, aper1=AP10MM;
+Q2.1FLFDIAG: quadrupole, l=quad_length, k1=-12, aper1=AP10MM;
+Q2.2FLFDIAG: quadrupole, l=quad_length, k1=8.0, aper1=AP10MM;
+Q2.3FLFDIAG: quadrupole, l=quad_length, k1=-12, aper1=AP10MM;
+
+
+!================================================ Dipoles ======================================================================
+
+!D3FLFDIAG: rbend, l=1*m, B=1.0*T, e1=0, e2=0, aper1=AP40MM, tilt=pi/2;
+D3FLFDIAG: usercomponent, userTypeName="udipole", B=1.0;
+
+
+!================================================ Beamline =====================================================================
+
+FLFDIAG1: line=(Dinit, init, D0403, BPM1FLFDIAG, D0096, Q1.1FLFDIAG, D0150, Q1.2FLFDIAG, D0150, Q2.1FLFDIAG,
+		D0150, Q2.2FLFDIAG, D0131, D0131, Q2.3FLFDIAG, D0139, VAC2FLFDIAG, D0137, BPM3FLFDIAG, D0423, D3FLFDIAG,
+		D0550, SCR5FLFDIAG, D0031, D0250b);
+! was an extra Q1.2FLFDIAG and D0150 in elegant beamline
+use, period=FLFDIAG1;
+
+sample, range = init;
+sample, range = BPM1FLFDIAG;
+sample, range = VAC2FLFDIAG;
+sample, range = BPM3FLFDIAG;
+sample, range = SCR5FLFDIAG;

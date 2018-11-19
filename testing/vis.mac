@@ -1,9 +1,11 @@
 # Invoke the OGLSX driver 
 # Create a scene handler and a viewer for the OGLSX driver
 /vis/open OGLSQt 600x600-0+0
-#/vis/open OGLSX
+#/vis/open OGLSXm
+#/vis/open OGLIXm
 #/vis/open DAWNFILE
-#/vis/open RayTracerX
+#/vis/open RayTracer
+#/vis/open OGLI
 
 # Draw scene 
 /vis/drawVolume

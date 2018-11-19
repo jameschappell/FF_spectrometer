@@ -26,195 +26,245 @@ UDipoleConstructor.hh
 iostream
 -
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/BasicVector3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
 iosfwd
 -
+CLHEP/Geometry/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/defs.h
 CLHEP/Vector/ThreeVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/Normal3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
 iosfwd
 -
+CLHEP/Geometry/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/defs.h
 CLHEP/Vector/ThreeVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
 CLHEP/Geometry/BasicVector3D.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Geometry/BasicVector3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/BasicVector3D.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/Point3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Point3D.h
 iosfwd
 -
+CLHEP/Geometry/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/defs.h
 CLHEP/Vector/ThreeVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
 CLHEP/Geometry/BasicVector3D.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Geometry/BasicVector3D.h
-
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/Transform3D.h
-CLHEP/Vector/ThreeVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
-CLHEP/Geometry/Transform3D.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Geometry/Transform3D.icc
-
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/Transform3D.icc
-CLHEP/Vector/ThreeVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
-CLHEP/Vector/Rotation.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Vector/Rotation.h
-CLHEP/Geometry/Point3D.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Geometry/Point3D.h
-CLHEP/Geometry/Vector3D.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Geometry/Vector3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/BasicVector3D.h
+CLHEP/config/CLHEP.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/config/CLHEP.h
 CLHEP/Geometry/Normal3D.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Geometry/Normal3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/Normal3D.h
+CLHEP/Geometry/Transform3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/Transform3D.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/Vector3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Transform3D.h
+CLHEP/Geometry/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/defs.h
+CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
+CLHEP/Geometry/Transform3D.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/Transform3D.icc
+
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Transform3D.icc
+CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
+CLHEP/Vector/Rotation.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Vector/Rotation.h
+CLHEP/Geometry/Point3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/Point3D.h
+CLHEP/Geometry/Vector3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/Vector3D.h
+CLHEP/Geometry/Normal3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/Normal3D.h
+
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Vector3D.h
 iosfwd
 -
+CLHEP/Geometry/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/defs.h
 CLHEP/Vector/ThreeVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Vector/ThreeVector.h
 CLHEP/Geometry/BasicVector3D.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Geometry/CLHEP/Geometry/BasicVector3D.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/CLHEP/Geometry/BasicVector3D.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Units/PhysicalConstants.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/defs.h
+
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/PhysicalConstants.h
+CLHEP/Units/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/CLHEP/Units/defs.h
 CLHEP/Units/SystemOfUnits.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Units/CLHEP/Units/SystemOfUnits.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/CLHEP/Units/SystemOfUnits.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Units/SystemOfUnits.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/SystemOfUnits.h
+CLHEP/Units/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/CLHEP/Units/defs.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Utility/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/defs.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/AxisAngle.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/AxisAngle.h
+CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/ThreeVector.h
 iostream
 -
-CLHEP/Vector/ThreeVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/ThreeVector.h
+CLHEP/Vector/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/defs.h
 CLHEP/Vector/AxisAngle.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/AxisAngle.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/AxisAngle.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/AxisAngle.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/AxisAngle.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/LorentzVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/LorentzVector.h
 iostream
 -
+CLHEP/Vector/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/defs.h
 CLHEP/Vector/ThreeVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/ThreeVector.h
 CLHEP/Vector/LorentzVector.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/LorentzVector.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/LorentzVector.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/LorentzVector.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/LorentzVector.icc
+CLHEP/Vector/ZMxpv.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/ZMxpv.h
 cmath
 -
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/Rotation.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/Rotation.h
+CLHEP/Vector/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/defs.h
 CLHEP/Vector/RotationInterfaces.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.h
 CLHEP/Vector/RotationX.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationX.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationX.h
 CLHEP/Vector/RotationY.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationY.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationY.h
 CLHEP/Vector/RotationZ.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationZ.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationZ.h
 CLHEP/Vector/LorentzVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/LorentzVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/LorentzVector.h
 CLHEP/Vector/Rotation.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/Rotation.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/Rotation.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/Rotation.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/Rotation.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/RotationInterfaces.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/RotationInterfaces.h
+CLHEP/Vector/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/defs.h
 CLHEP/Vector/ThreeVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/ThreeVector.h
 CLHEP/Vector/LorentzVector.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/LorentzVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/LorentzVector.h
 CLHEP/Vector/AxisAngle.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/AxisAngle.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/AxisAngle.h
 CLHEP/Vector/RotationInterfaces.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/RotationInterfaces.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/RotationInterfaces.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/RotationX.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/RotationX.h
+CLHEP/Vector/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/defs.h
 CLHEP/Vector/RotationInterfaces.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.h
 CLHEP/Vector/RotationX.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationX.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationX.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/RotationX.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/RotationX.icc
 cmath
 -
 CLHEP/Units/PhysicalConstants.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Units/PhysicalConstants.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Units/PhysicalConstants.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/RotationY.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/RotationY.h
+CLHEP/Vector/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/defs.h
 CLHEP/Vector/RotationInterfaces.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.h
 CLHEP/Vector/RotationY.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationY.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationY.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/RotationY.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/RotationY.icc
 cmath
 -
 CLHEP/Units/PhysicalConstants.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Units/PhysicalConstants.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Units/PhysicalConstants.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/RotationZ.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/RotationZ.h
+CLHEP/Vector/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/defs.h
 CLHEP/Vector/RotationInterfaces.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationInterfaces.h
 CLHEP/Vector/RotationZ.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/RotationZ.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/RotationZ.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/RotationZ.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/RotationZ.icc
 cmath
 -
 CLHEP/Units/PhysicalConstants.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Units/PhysicalConstants.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Units/PhysicalConstants.h
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/ThreeVector.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/ThreeVector.h
 iostream
 -
-CLHEP/Utility/defs.h
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Utility/defs.h
+CLHEP/Vector/defs.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/defs.h
 CLHEP/Vector/ThreeVector.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/CLHEP/Vector/ThreeVector.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/CLHEP/Vector/ThreeVector.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/CLHEP/Vector/ThreeVector.icc
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/ThreeVector.icc
 cmath
 -
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4AutoLock.hh
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/ZMxpv.h
+string
+-
+exception
+-
+Exceptions/ZMexception.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/Exceptions/ZMexception.h
+Exceptions/ZMthrow.h
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/Exceptions/ZMthrow.h
+
+/opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Vector/defs.h
+
+/usr/local/include/Geant4/G4AutoLock.hh
 G4Threading.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Threading.hh
+/usr/local/include/Geant4/G4Threading.hh
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4ExceptionSeverity.hh
+/usr/local/include/Geant4/G4ExceptionSeverity.hh
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4GeomSplitter.hh
+/usr/local/include/Geant4/G4GeomSplitter.hh
 stdlib.h
 -
 globals.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/globals.hh
+/usr/local/include/Geant4/globals.hh
 geomwdefs.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/geomwdefs.hh
+/usr/local/include/Geant4/geomwdefs.hh
 G4AutoLock.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4AutoLock.hh
+/usr/local/include/Geant4/G4AutoLock.hh
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4LogicalVolume.hh
+/usr/local/include/Geant4/G4LogicalVolume.hh
 vector
 -
 G4Types.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
 G4Region.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Region.hh
+/usr/local/include/Geant4/G4Region.hh
 G4VPhysicalVolume.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4VPhysicalVolume.hh
+/usr/local/include/Geant4/G4VPhysicalVolume.hh
 G4GeomSplitter.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4GeomSplitter.hh
+/usr/local/include/Geant4/G4GeomSplitter.hh
 G4Threading.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Threading.hh
+/usr/local/include/Geant4/G4Threading.hh
 G4LogicalVolume.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4LogicalVolume.icc
+/usr/local/include/Geant4/G4LogicalVolume.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4LogicalVolume.icc
+/usr/local/include/Geant4/G4LogicalVolume.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Region.hh
+/usr/local/include/Geant4/G4Region.hh
 vector
 -
 map
@@ -222,25 +272,25 @@ map
 algorithm
 -
 G4Types.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
 G4String.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4String.hh
+/usr/local/include/Geant4/G4String.hh
 G4GeomSplitter.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4GeomSplitter.hh
+/usr/local/include/Geant4/G4GeomSplitter.hh
 G4Region.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Region.icc
+/usr/local/include/Geant4/G4Region.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Region.icc
+/usr/local/include/Geant4/G4Region.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4RotationMatrix.hh
+/usr/local/include/Geant4/G4RotationMatrix.hh
 globals.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/globals.hh
+/usr/local/include/Geant4/globals.hh
 G4ThreeVector.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4ThreeVector.hh
+/usr/local/include/Geant4/G4ThreeVector.hh
 CLHEP/Vector/Rotation.h
 -
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4String.hh
+/usr/local/include/Geant4/G4String.hh
 stdio.h
 -
 string
@@ -248,17 +298,17 @@ string
 cstring
 -
 G4Types.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
 iostream
 -
 G4String.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4String.icc
+/usr/local/include/Geant4/G4String.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4String.icc
+/usr/local/include/Geant4/G4String.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Threading.hh
+/usr/local/include/Geant4/G4Threading.hh
 G4Types.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
 unistd.h
 -
 pthread.h
@@ -266,81 +316,81 @@ pthread.h
 sys/types.h
 -
 windefs.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/windefs.hh
+/usr/local/include/Geant4/windefs.hh
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4ThreeVector.hh
+/usr/local/include/Geant4/G4ThreeVector.hh
 globals.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/globals.hh
+/usr/local/include/Geant4/globals.hh
 CLHEP/Vector/ThreeVector.h
 -
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Transform3D.hh
+/usr/local/include/Geant4/G4Transform3D.hh
 globals.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/globals.hh
+/usr/local/include/Geant4/globals.hh
 CLHEP/Geometry/Transform3D.h
 -
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
 complex
 -
 tls.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/tls.hh
+/usr/local/include/Geant4/tls.hh
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4VPhysicalVolume.hh
+/usr/local/include/Geant4/G4VPhysicalVolume.hh
 G4Types.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
 G4String.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4String.hh
+/usr/local/include/Geant4/G4String.hh
 geomdefs.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/geomdefs.hh
+/usr/local/include/Geant4/geomdefs.hh
 G4RotationMatrix.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4RotationMatrix.hh
+/usr/local/include/Geant4/G4RotationMatrix.hh
 G4ThreeVector.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4ThreeVector.hh
+/usr/local/include/Geant4/G4ThreeVector.hh
 G4GeomSplitter.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4GeomSplitter.hh
+/usr/local/include/Geant4/G4GeomSplitter.hh
 G4VPhysicalVolume.icc
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4VPhysicalVolume.icc
+/usr/local/include/Geant4/G4VPhysicalVolume.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4VPhysicalVolume.icc
+/usr/local/include/Geant4/G4VPhysicalVolume.icc
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4ios.hh
+/usr/local/include/Geant4/G4ios.hh
 G4Types.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
 iostream
 -
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/geomdefs.hh
+/usr/local/include/Geant4/geomdefs.hh
 globals.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/globals.hh
+/usr/local/include/Geant4/globals.hh
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/geomwdefs.hh
+/usr/local/include/Geant4/geomwdefs.hh
 G4Types.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/globals.hh
+/usr/local/include/Geant4/globals.hh
 G4ios.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4ios.hh
+/usr/local/include/Geant4/G4ios.hh
 algorithm
 -
 G4Types.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4Types.hh
+/usr/local/include/Geant4/G4Types.hh
 G4String.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4String.hh
+/usr/local/include/Geant4/G4String.hh
 templates.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/templates.hh
+/usr/local/include/Geant4/templates.hh
 G4ExceptionSeverity.hh
-/opt/local/include/Geant4/Geant4.10.4/Geant4/G4ExceptionSeverity.hh
+/usr/local/include/Geant4/G4ExceptionSeverity.hh
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/templates.hh
+/usr/local/include/Geant4/templates.hh
 limits
 -
 climits
 -
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/tls.hh
+/usr/local/include/Geant4/tls.hh
 
-/opt/local/include/Geant4/Geant4.10.4/Geant4/windefs.hh
+/usr/local/include/Geant4/windefs.hh
 windows.h
 -
 
