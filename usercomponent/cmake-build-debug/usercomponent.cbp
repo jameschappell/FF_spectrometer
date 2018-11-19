@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="usercomponent"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\bdsim\;CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\;CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.3.2\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\bdsim\;CMake Files\..\..\..\..\..\usr\local\share\bdsim\vis\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\local\;CMake Files\..\..\..\..\..\opt\local\lib\;CMake Files\..\..\..\..\..\opt\local\lib\CLHEP-2.4.1.0\;CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\;CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bdsimuser">
+				<Option output="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/bdsimuser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add directory="/usr/local/include/bdsim"/>
+					<Add directory="/Users/jamiechappell/git/FF_spectrometer/usercomponent/include"/>
+					<Add directory="/opt/local/include/Geant4/Geant4.10.4/Geant4"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/libexec/qt4/include"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtCore"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtGui"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtOpenGL"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bdsimuser"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bdsimuser/fast">
+				<Option output="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/bdsimuser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add directory="/usr/local/include/bdsim"/>
+					<Add directory="/Users/jamiechappell/git/FF_spectrometer/usercomponent/include"/>
+					<Add directory="/opt/local/include/Geant4/Geant4.10.4/Geant4"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/libexec/qt4/include"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtCore"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtGui"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtOpenGL"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bdsimuser/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udipole">
+				<Option output="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/libudipole.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add directory="/usr/local/include/bdsim"/>
+					<Add directory="/Users/jamiechappell/git/FF_spectrometer/usercomponent/include"/>
+					<Add directory="/opt/local/include/Geant4/Geant4.10.4/Geant4"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/libexec/qt4/include"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtCore"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtGui"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtOpenGL"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 udipole"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udipole/fast">
+				<Option output="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/libudipole.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add directory="/usr/local/include/bdsim"/>
+					<Add directory="/Users/jamiechappell/git/FF_spectrometer/usercomponent/include"/>
+					<Add directory="/opt/local/include/Geant4/Geant4.10.4/Geant4"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/opt/local/libexec/qt4/include"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtCore"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtGui"/>
+					<Add directory="/opt/local/libexec/qt4/include/QtOpenGL"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 udipole/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/source/UDipole.cc">
+			<Option target="udipole"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/source/UDipoleConstructor.cc">
+			<Option target="udipole"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/usercomponent.cc">
+			<Option target="bdsimuser"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/cmake/bdsim/BDSIMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\bdsim\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/cmake/bdsim/BDSIMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\bdsim\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/cmake/bdsim/BDSIMTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\bdsim\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/cmake/bdsim/BDSIMTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\bdsim\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/Geant4-10.4.2/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.4.2\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/lib/Geant4-10.3.2/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\Geant4-10.3.2\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../usr/local/share/bdsim/vis/vis.mac">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\bdsim\vis\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/CLHEP-2.4.1.0/CLHEPConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\CLHEP-2.4.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/CLHEP-2.4.1.0/CLHEPConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\CLHEP-2.4.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/CLHEP-2.4.1.0/CLHEPLibraryDepends-macports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\CLHEP-2.4.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/CLHEP-2.4.1.0/CLHEPLibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\CLHEP-2.4.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Geant4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Geant4LibraryDepends-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Geant4LibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/UseGeant4.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\"/>
+		</Unit>
+		<Unit filename="/Users/jamiechappell/git/FF_spectrometer/usercomponent/../../../../../opt/local/lib/Geant4-10.4.0/Modules/IntelCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\local\lib\Geant4-10.4.0\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

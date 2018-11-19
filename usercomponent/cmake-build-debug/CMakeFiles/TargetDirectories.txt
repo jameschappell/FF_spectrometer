@@ -1,0 +1,4 @@
+/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/CMakeFiles/bdsimuser.dir
+/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jamiechappell/git/FF_spectrometer/usercomponent/cmake-build-debug/CMakeFiles/udipole.dir
