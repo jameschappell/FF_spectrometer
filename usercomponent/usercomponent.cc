@@ -17,8 +17,8 @@ int main(int argc, char** argv)
   // construct geometry and physics
   bds->Initialise(argc, argv);
   if (!bds->Initialised()) // check if there was a problem.
-    {std::cout << "Intialisation failed" << std::endl; return 1;}
-  
+    {std::cout << "Initialisation failed" << std::endl; return 1;}
+
   bds->BeamOn(); // run the simulation
   delete bds;    // clean up
   return 0;      // exit nicely

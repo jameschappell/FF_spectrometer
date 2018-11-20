@@ -3,6 +3,7 @@
 option,physicsList="";
 option,ngenerate=100000;
 !include options.gmad;
+option, maximumStepLength=1*cm;
 
 beamEnergy=1.0*GeV;
 gamma=beamEnergy/(0.511*MeV);
@@ -16,7 +17,7 @@ beam, particle="e-",
       bety=10e-3,
       alfx=0.0,
       alfy=0.0,
-      sigmaE=1e-3,
+      sigmaE=0.01,
       sigmaT=100e-15;
 
 ! Constants
@@ -61,7 +62,7 @@ Q2.3FLFDIAG: quadrupole, l=quad_length, k1=-12, aper1=AP10MM;
 !================================================ Dipoles ======================================================================
 
 !D3FLFDIAG: rbend, l=1*m, B=1.0*T, e1=0, e2=0, aper1=AP40MM, tilt=pi/2;
-D3FLFDIAG: usercomponent, userTypeName="udipole", B=1.0;
+D3FLFDIAG: usercomponent, userTypeName="udipole", B=0.5;
 
 
 !================================================ Beamline =====================================================================

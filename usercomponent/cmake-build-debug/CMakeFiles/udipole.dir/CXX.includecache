@@ -79,6 +79,8 @@ G4ThreeVector.hh
 /Users/jamiechappell/git/FF_spectrometer/usercomponent/source/G4ThreeVector.hh
 G4VisAttributes.hh
 /Users/jamiechappell/git/FF_spectrometer/usercomponent/source/G4VisAttributes.hh
+G4Tubs.hh
+/Users/jamiechappell/git/FF_spectrometer/usercomponent/source/G4Tubs.hh
 
 /opt/local/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
 iosfwd
@@ -1022,6 +1024,20 @@ globals.hh
 CLHEP/Geometry/Transform3D.h
 -
 
+/usr/local/include/Geant4/G4Tubs.hh
+G4UTubs.hh
+/usr/local/include/Geant4/G4UTubs.hh
+CLHEP/Units/PhysicalConstants.h
+-
+G4CSGSolid.hh
+/usr/local/include/Geant4/G4CSGSolid.hh
+G4Polyhedron.hh
+/usr/local/include/Geant4/G4Polyhedron.hh
+G4Tubs.icc
+/usr/local/include/Geant4/G4Tubs.icc
+
+/usr/local/include/Geant4/G4Tubs.icc
+
 /usr/local/include/Geant4/G4TwoVector.hh
 globals.hh
 /usr/local/include/Geant4/globals.hh
@@ -1062,6 +1078,14 @@ base/Vector3D.h
 G4UAdapter.hh
 /usr/local/include/Geant4/G4UAdapter.hh
 volumes/UnplacedBox.h
+-
+G4Polyhedron.hh
+/usr/local/include/Geant4/G4Polyhedron.hh
+
+/usr/local/include/Geant4/G4UTubs.hh
+G4UAdapter.hh
+/usr/local/include/Geant4/G4UAdapter.hh
+volumes/UnplacedTube.h
 -
 G4Polyhedron.hh
 /usr/local/include/Geant4/G4Polyhedron.hh

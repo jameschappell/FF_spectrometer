@@ -120,10 +120,13 @@ CMakeFiles/udipole.dir/source/UDipole.cc.o
  /usr/local/include/Geant4/G4TrackStatus.hh
  /usr/local/include/Geant4/G4TrackVector.hh
  /usr/local/include/Geant4/G4Transform3D.hh
+ /usr/local/include/Geant4/G4Tubs.hh
+ /usr/local/include/Geant4/G4Tubs.icc
  /usr/local/include/Geant4/G4TwoVector.hh
  /usr/local/include/Geant4/G4Types.hh
  /usr/local/include/Geant4/G4UAdapter.hh
  /usr/local/include/Geant4/G4UBox.hh
+ /usr/local/include/Geant4/G4UTubs.hh
  /usr/local/include/Geant4/G4VGraphicsScene.hh
  /usr/local/include/Geant4/G4VHit.hh
  /usr/local/include/Geant4/G4VHitsCollection.hh

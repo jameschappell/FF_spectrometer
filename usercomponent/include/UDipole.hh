@@ -53,6 +53,7 @@ private:
   void BuildBeamPipe();
   void BuildMagnetYoke();
   void BuildChamber();
+  void BuildSideWall();
   void BuildField();
   void SetExtents();
 
@@ -66,13 +67,18 @@ private:
   G4Material* air;
   G4Material* steel;
   G4Material* iron;
+  G4double    beampipeThickness;
   G4double    pipe1Length;
+  G4double    pipe1Radius;
   G4double    pipe2Length;
+  G4double    pipe2Radius;
   G4double    yokeLength;
   G4double    chamberLength;
   G4double    chamberThickness;
   G4double    pipeDiff;
   G4double    magOffset;
+  G4double    diagScreenLength;
+  G4double    diagScreenAngle;
   G4String    colour;
   BDSBeamPipeInfo* pipe1Info;
   BDSBeamPipeInfo* pipe2Info;
