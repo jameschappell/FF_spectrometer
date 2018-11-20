@@ -107,7 +107,7 @@ void UDipole::Build()
   BuildBeamPipe();
   BuildMagnetYoke();
   BuildChamber();
-  BuildSideWall();
+  //BuildSideWall();
   BuildField();
   SetExtents();
 }
@@ -367,7 +367,7 @@ void UDipole::BuildChamber()
 	RegisterRotationMatrix(screenRMbtm); // for deletion by bdsim
 	G4double screenZPosbtm = -(diagScreenLength * std::cos(diagScreenAngle))/2.0;
 	//G4double screenZPos = 15*CLHEP::cm;
-	G4ThreeVector screenPosbtm = G4ThreeVector(0,-((169.0*CLHEP::mm + chamberThickness)/2.0 - lengthSafety), screenZPosbtm);
+	G4ThreeVector screenPosbtm = G4ThreeVector(0,-((169.0*CLHEP::mm + chamberThickness/2.0)/2.0 - lengthSafety), screenZPosbtm);
 
 	// We register a sampler name in the sampler registry which create the branch in the
 	// output with that name. The registry returns an integer that we must use as the placement
@@ -387,11 +387,6 @@ void UDipole::BuildChamber()
 									  checkOverlaps);
 	RegisterPhysicalVolume(screenPVbtm); // for deletion by bdsim
 
-
-}
-
-void UDipole::BuildSideWall()
-{
 	// Building walls for edges of vacuum chamber.
 	G4Box* sideWallSolid = new G4Box(name + "_sideWallSolid",
 							 (12.0*CLHEP::cm)/2.0 - lengthSafety,
@@ -404,7 +399,7 @@ void UDipole::BuildSideWall()
 								steel,
 								name + "_sideWall_log");
 
-	G4VisAttributes* SideWallVisAtt = new G4VisAttributes(G4Color(0.0, 0.0, 1.0, 0.0));
+	G4VisAttributes* SideWallVisAtt = new G4VisAttributes(G4Color(0.0, 0.0, 1.0, 0.4));
 	SideWallVisAtt->SetForceSolid(true);
 	SideWallVisAtt->SetVisibility(true);
 	logVolSideWall->SetVisAttributes(SideWallVisAtt);
@@ -413,13 +408,13 @@ void UDipole::BuildSideWall()
 
 	// Left wall
 
-	G4double leftWallZPos = -(0.5*chordLength - pipe1Length - chamberThickness/2.0 - lengthSafety);
-	G4ThreeVector leftWallPos = G4ThreeVector(0, -64.57*CLHEP::mm, leftWallZPos);
+	G4double leftWallZPos = -(0.5*chamberLength - chamberThickness/2.0 - lengthSafety);
+	G4ThreeVector leftWallPos = G4ThreeVector(0, 0, leftWallZPos);
 	auto leftSideWallPV = new G4PVPlacement(nullptr, // no rotation matrix,
 									 leftWallPos,
 									 logVolSideWall,
 									 name + "_leftsidewall_pv",
-									 containerLogicalVolume,
+									 chamber->GetVacuumLogicalVolume(),
 									 false,
 									 0,
 									 checkOverlaps);
@@ -427,13 +422,13 @@ void UDipole::BuildSideWall()
 
 	// Right wall
 
-	G4double rightWallZPos = (0.5*chordLength - pipe2Length - lengthSafety);
-	G4ThreeVector rightWallPos = G4ThreeVector(0, -64.57*CLHEP::mm, rightWallZPos);
+	G4double rightWallZPos = (0.5*chamberLength - chamberThickness/2.0 - lengthSafety);
+	G4ThreeVector rightWallPos = G4ThreeVector(0, 0, rightWallZPos);
 	auto rightSideWallPV = new G4PVPlacement(nullptr, // no rotation matrix,
 											rightWallPos,
 											logVolSideWall,
 											name + "_rightsidewall_pv",
-											containerLogicalVolume,
+											chamber->GetVacuumLogicalVolume(),
 											false,
 											0,
 											checkOverlaps);
@@ -460,17 +455,47 @@ void UDipole::BuildSideWall()
 	RegisterVisAttributes(SideWallHoleVisAtt);// for deletion by bdsim
 	RegisterLogicalVolume(logVolSideWallHole); // for deletion by bdsim
 
-	G4ThreeVector leftWallHolePos = G4ThreeVector(0, 0, leftWallZPos);
+	G4ThreeVector leftWallHolePos = G4ThreeVector(0, 64.57*CLHEP::mm, leftWallZPos);
 
 	auto leftSideWallHolePV = new G4PVPlacement(nullptr, // no rotation matrix,
 											leftWallHolePos,
 											logVolSideWallHole,
 											name + "_leftsidewallHole_pv",
-											containerLogicalVolume,
+											chamber->GetVacuumLogicalVolume(),
 											false,
 											0,
 											checkOverlaps);
 	RegisterPhysicalVolume(leftSideWallHolePV); // for deletion by bdsim
+
+	// Right hole
+
+	G4Tubs* rightSideHoleSolid = new G4Tubs(name + "_rightsideholeSolid",
+										   0.0,
+										   pipe2Radius + beampipeThickness + 2*lengthSafety,
+										   (chamberThickness)/2.0,
+										   0,
+										   2*CLHEP::pi);
+
+	RegisterSolid(rightSideHoleSolid);
+
+	G4LogicalVolume* logrightVolSideWallHole = new G4LogicalVolume(rightSideHoleSolid,
+															  vacuum,
+															  name + "_rightsideWallHole_log");
+
+	logrightVolSideWallHole->SetVisAttributes(SideWallHoleVisAtt);
+	RegisterLogicalVolume(logrightVolSideWallHole); // for deletion by bdsim
+
+	G4ThreeVector rightWallHolePos = G4ThreeVector(0, 64.57*CLHEP::mm, rightWallZPos);
+
+	auto rightSideWallHolePV = new G4PVPlacement(nullptr, // no rotation matrix,
+											    rightWallHolePos,
+												logrightVolSideWallHole,
+												name + "_rightsidewallHole_pv",
+												chamber->GetVacuumLogicalVolume(),
+												false,
+												0,
+												checkOverlaps);
+	RegisterPhysicalVolume(rightSideWallHolePV); // for deletion by bdsim
 }
 
 void UDipole::BuildField()

@@ -53,7 +53,7 @@ private:
   void BuildBeamPipe();
   void BuildMagnetYoke();
   void BuildChamber();
-  void BuildSideWall();
+  //void BuildSideWall();
   void BuildField();
   void SetExtents();
 
