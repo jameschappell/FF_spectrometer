@@ -185,7 +185,8 @@ def make_simulation(resultsdir, energy, emitx, emity, betx, bety, alfx, alfy,
     change_dir_string = 'cd ' + resultsdir
     subscript2 = string.replace(subscript1, 'change_dir', change_dir_string)
 
-    sub_line_str = "custombdsim --file=spectrometer.gmad --outfile=" + str(
+    sub_line_str = "/unix/pdpwa/jchappell/bdsimuser " \
+                   "--file=spectrometer.gmad --outfile=" + str(
         type) + " --batch"
     subscript3 = string.replace(subscript2, 'sub_line', sub_line_str)
 
