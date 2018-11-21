@@ -112,6 +112,7 @@ work_dir
 #PBS -e ./logs/
 #PBS -o ./logs/
 
+source /home/chappell/.bashrc
 source /unix/pbt/software/scripts/bdsim_setup_ff.sh
 source /unix/pdpwa/jchappell/setup.sh
 change_dir
