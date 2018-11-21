@@ -220,7 +220,8 @@ if __name__ == "__main__":
         e.g. default: [1.0, 2, 2, 0.01, 0.01, 0, 0, 0.001, 100]
         ''')
 
-    parser.add_argument('--witness', dest='witness', default=[1.5, 2, 2, 0.01,
+    parser.add_argument('--witness', dest='witness', nargs='+', default=[1.5, 2,
+                                                                         2, 0.01,
                                                           0.01, 0, 0, 0.1,
                                                           100],
                         help='''
@@ -240,7 +241,9 @@ if __name__ == "__main__":
         e.g. default: [1.5, 2, 2, 0.01, 0.01, 0, 0, 0.1, 100]
             ''')
 
-    parser.add_argument('--magnets', dest='magnets', default=[7.3, 7.3, -12,
+    parser.add_argument('--magnets', dest='magnets', nargs='+', default=[7.3,
+                                                                         7.3,
+                                                                         -12,
                                                               8, -12, 0.8],
                         help='''
         This is the definition of the quadrupole and dipole magnets. It 
