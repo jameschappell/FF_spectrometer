@@ -113,6 +113,7 @@ work_dir
 #PBS -o ./logs/
 
 source /unix/pbt/software/scripts/bdsim_setup_ff.sh
+source /unix/pdpwa/jchappell/setup.sh
 change_dir
 
 sub_line
