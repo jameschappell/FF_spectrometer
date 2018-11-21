@@ -177,10 +177,10 @@ def make_simulation(resultsdir, energy, emitx, emity, betx, bety, alfx, alfy,
     ss = os.path.join(resultsdir, 'sub_script.bash')
     fs = open(ss, "wb")
 
-    work_dir_string = '#PBS -wd ' + os.getcwd() + '/' + resultsdir
+    work_dir_string = '#PBS -wd ' + resultsdir
     subscript1 = string.replace(subscript, 'work_dir', work_dir_string)
 
-    change_dir_string = 'cd ' + os.getcwd() + '/' + resultsdir
+    change_dir_string = 'cd ' + resultsdir
     subscript2 = string.replace(subscript1, 'change_dir', change_dir_string)
 
     sub_line_str = "custombdsim --file=spectrometer.gmad --outfile=" + str(
