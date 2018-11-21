@@ -198,9 +198,11 @@ if __name__ == "__main__":
         diagnostics line, one for a drive beam and one for a witness beam.""",
     formatter_class=argparse.RawTextHelpFormatter)
 
-    parser.add_argument('--drive', dest='drive', default=[1.0, 2, 2, 0.01,
-                                                          0.01, 0, 0, 0.001,
-                                                          100],
+    parser.add_argument('--drive', dest='drive', nargs='+', default=[1.0, 2, 2,
+                                                                     0.01,
+                                                                     0.01, 0, 0,
+                                                                     0.001,
+                                                                     100],
                         help='''
         This is the definition of the drive beam parameters. It takes nine 
         arguments that must be provided as a list. The arguments are:
