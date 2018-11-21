@@ -205,7 +205,7 @@ if __name__ == "__main__":
                                                                      100],
                         help='''
         This is the definition of the drive beam parameters. It takes nine 
-        arguments that must be provided as a list. The arguments are:
+        arguments that must be provided separated by spaces. The arguments are:
         
         1. Energy: mean energy of the beam [GeV].
         2. epsilon_x: horizontal normalised emittance [um].
@@ -217,7 +217,7 @@ if __name__ == "__main__":
         8. sigma_E: relative energy spread, sigma_E/E.
         9. sigma_T: sigma of the temporal distribution [fs].
         
-        e.g. default: [1.0, 2, 2, 0.01, 0.01, 0, 0, 0.001, 100]
+        e.g. default: --drive 1.0 2 2 0.01 0.01 0 0 0.001 100
         ''')
 
     parser.add_argument('--witness', dest='witness', nargs='+', default=[1.5, 2,
@@ -226,7 +226,7 @@ if __name__ == "__main__":
                                                           100],
                         help='''
         This is the definition of the witness beam parameters. It takes nine 
-        arguments that must be provided as a list. The arguments are:
+        arguments that must be provided separated by spaces. The arguments are:
 
         1. Energy: mean energy of the beam [GeV].
         2. epsilon_x: horizontal normalised emittance [um].
@@ -238,7 +238,7 @@ if __name__ == "__main__":
         8. sigma_E: relative energy spread, sigma_E/E.
         9. sigma_T: sigma of the temporal distribution [fs].
 
-        e.g. default: [1.5, 2, 2, 0.01, 0.01, 0, 0, 0.1, 100]
+        e.g. default: --witness 1.5 2 2 0.01 0.01 0 0 0.1 100
             ''')
 
     parser.add_argument('--magnets', dest='magnets', nargs='+', default=[7.3,
@@ -247,10 +247,10 @@ if __name__ == "__main__":
                                                               8, -12, 0.8],
                         help='''
         This is the definition of the quadrupole and dipole magnets. It 
-        takes six arguments that must be provided as a list. The quadrupole 
-        values correspond to the normalised quadrupole strength and can vary 
-        between +/- 12. The dipole value corresponds to the strength of the 
-        dipole magnetic field in Tesla. The arguments are:
+        takes six arguments that must be provided separated by spaces. The 
+        quadrupole values correspond to the normalised quadrupole strength 
+        and can vary between +/- 12. The dipole value corresponds to the 
+        strength of the dipole magnetic field in Tesla. The arguments are:
 
         1. First quadrupole, Q1.1
         2. Second quadrupole, Q1.2
@@ -259,7 +259,7 @@ if __name__ == "__main__":
         5. Fifth quadrupole, Q2.3
         6. Dipole field strength [T]
 
-        e.g. default: [7.3, 7.3, -12, 8, -12, 0.8]
+        e.g. default: --magnets 7.3 7.3 -12 8 -12 0.8
                 ''')
 
     arguments = parser.parse_args()
