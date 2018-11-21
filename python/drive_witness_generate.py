@@ -222,7 +222,7 @@ if __name__ == "__main__":
                                                           0.01, 0, 0, 0.1,
                                                           100],
                         help='''
-        This is the definition of the drive beam parameters. It takes nine 
+        This is the definition of the witness beam parameters. It takes nine 
         arguments that must be provided as a list. The arguments are:
 
         1. Energy: mean energy of the beam [GeV].
