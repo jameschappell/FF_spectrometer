@@ -297,7 +297,7 @@ if __name__ == "__main__":
                         beamparams[5], beamparams[6], beamparams[7],
                         beamparams[8], magnetparams[0], magnetparams[1],
                         magnetparams[2], magnetparams[3], magnetparams[4],
-                        magnetparams[6])
+                        magnetparams[5])
         os.chdir(cwd + '/' + res_dir)
         os.mkdir('logs')
         run_command = "qsub sub_script.bash"
