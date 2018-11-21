@@ -264,11 +264,11 @@ if __name__ == "__main__":
 
     arguments = parser.parse_args()
 
-    drive_params = arguments.drive
+    drive_params = [float(i) for i in arguments.drive]
 
-    witness_params = arguments.witness
+    witness_params = [float(i) for i in arguments.witness]
 
-    magnetparams = arguments.magnets
+    magnetparams = [float(i) for i in arguments.magnets]
 
     print drive_params
 
