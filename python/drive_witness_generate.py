@@ -308,7 +308,7 @@ if __name__ == "__main__":
         os.mkdir('logs')
         run_command = "qsub sub_script.bash"
         print run_command
-        #os.system(run_command)
+        os.system(run_command)
 
 
 
