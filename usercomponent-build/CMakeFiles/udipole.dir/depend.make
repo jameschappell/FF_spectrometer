@@ -119,10 +119,13 @@ CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4Track.ic
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4TrackStatus.hh
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4TrackVector.hh
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4Transform3D.hh
+CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4Tubs.hh
+CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4Tubs.icc
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4TwoVector.hh
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4Types.hh
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4UAdapter.hh
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4UBox.hh
+CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4UTubs.hh
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4VGraphicsScene.hh
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4VHit.hh
 CMakeFiles/udipole.dir/source/UDipole.cc.o: /usr/local/include/Geant4/G4VHitsCollection.hh

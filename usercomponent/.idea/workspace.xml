@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="usercomponent" targetName="udipole" />
       <config projectName="usercomponent" targetName="bdsimuser" />
+      <config projectName="usercomponent" targetName="udipole" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -13,6 +13,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9be7d51e-08e6-430a-9f0e-36e52d727490" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/bdsimuser.dir/usercomponent.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/bdsimuser.dir/usercomponent.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/source/UDipole.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/source/UDipole.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/source/UDipoleConstructor.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../usercomponent-build/CMakeFiles/udipole.dir/source/UDipoleConstructor.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercomponent-build/bdsimuser" beforeDir="false" afterPath="$PROJECT_DIR$/../usercomponent-build/bdsimuser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercomponent-build/libudipole.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../usercomponent-build/libudipole.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bdsimuser.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bdsimuser.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bdsimuser.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bdsimuser.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bdsimuser.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bdsimuser.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bdsimuser.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bdsimuser.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/source/UDipole.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/source/UDipole.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/source/UDipoleConstructor.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/udipole.dir/source/UDipoleConstructor.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bdsimuser" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bdsimuser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libudipole.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libudipole.dylib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/UDipole.hh" beforeDir="false" afterPath="$PROJECT_DIR$/include/UDipole.hh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/UDipole.cc" beforeDir="false" afterPath="$PROJECT_DIR$/source/UDipole.cc" afterDir="false" />
     </list>
@@ -35,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usercomponent.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -56,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/UDipole.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="488" lean-forward="true" selection-start-line="488" selection-end-line="488" />
+            <state relative-caret-position="192">
+              <caret line="490" column="1" lean-forward="true" selection-start-line="490" selection-start-column="1" selection-end-line="490" selection-end-column="1" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -71,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/UDipole.hh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+            <state relative-caret-position="202">
+              <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
               <folding>
                 <element signature="e#37#74#0" expanded="true" />
               </folding>
@@ -107,6 +137,7 @@
       <find>yokeLengt</find>
       <find>pipe1Len</find>
       <find>chamberLength</find>
+      <find>64.57</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,18 +251,21 @@
       <workItem from="1542380963935" duration="1246000" />
       <workItem from="1542616888192" duration="2383000" />
       <workItem from="1542628602705" duration="321000" />
-      <workItem from="1542629040893" duration="14793000" />
+      <workItem from="1542629040893" duration="16913000" />
+      <workItem from="1542791881990" duration="1359000" />
+      <workItem from="1544776095645" duration="666000" />
+      <workItem from="1547628477213" duration="3171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18743000" />
+    <option name="totallyTimeSpent" value="26059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27172312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -258,6 +292,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/udipole.gmad">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/udipole.gmad">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -268,20 +312,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/udipole.gmad">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/udipole.gmad">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/UDipole.hh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        <state relative-caret-position="202">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
           <folding>
             <element signature="e#37#74#0" expanded="true" />
           </folding>
@@ -295,22 +329,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/UDipole.cc">
+    <entry file="file://$PROJECT_DIR$/usercomponent.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="488" lean-forward="true" selection-start-line="488" selection-end-line="488" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usercomponent.cc">
+    <entry file="file://$PROJECT_DIR$/source/UDipole.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="192">
+          <caret line="490" column="1" lean-forward="true" selection-start-line="490" selection-start-column="1" selection-end-line="490" selection-end-column="1" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>

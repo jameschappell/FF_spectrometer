@@ -53,7 +53,6 @@ private:
   void BuildBeamPipe();
   void BuildMagnetYoke();
   void BuildChamber();
-  //void BuildSideWall();
   void BuildField();
   void SetExtents();
 
@@ -79,6 +78,7 @@ private:
   G4double    magOffset;
   G4double    diagScreenLength;
   G4double    diagScreenAngle;
+  G4double    yOffset;
   G4String    colour;
   BDSBeamPipeInfo* pipe1Info;
   BDSBeamPipeInfo* pipe2Info;
