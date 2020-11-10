@@ -1,4 +1,4 @@
-d1: usercomponent, userTypeName="udipole", B=0.2;
+d1: usercomponent, userTypeName="udipole", B=0.5;
 
 d2: drift, l=0.5*m, aper1=12.5*mm;
 
@@ -8,7 +8,7 @@ l1: line=(d2,d1,d3);
 use, l1;
 
 beam, particle="e-",
-      energy=2*GeV;
+      energy=1*GeV;
 
 
 option, maximumStepLength=10*cm;

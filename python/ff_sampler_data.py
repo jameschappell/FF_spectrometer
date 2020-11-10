@@ -9,6 +9,7 @@ Created on Mon Aug  6 09:41:47 2018
 import pybdsim as pb
 import numpy as np
 import argparse
+import os
 
 #%%
 
@@ -25,16 +26,17 @@ def get_sampler_data(file, d, sampler):
     xp = sampler_data.data['xp']
     yp = sampler_data.data['yp']
     E = sampler_data.data['energy']
+    z = sampler_data.data['z']
     
-    n = len(x)
+    n = [len(x), len(y), len(xp), len(yp), len(E), len(z)]
     
     print ('Number of entries: {}'.format(n))
     
     sampler_data_list = []
     
-    for i in range(0, n):
+    for i in range(0, min(n)):
         
-        line = [x[i], y[i], xp[i], yp[i], E[i]]
+        line = [x[i], y[i], z[i], xp[i], yp[i], E[i]]
         
         sampler_data_list.append(line)
         
